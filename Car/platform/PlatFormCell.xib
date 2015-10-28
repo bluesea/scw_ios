@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="platformCell0" rowHeight="36" id="KGk-i7-Jjw" userLabel="platformCell" customClass="PlatFormCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="36"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="35.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="从苏州到上海  有12辆客车 9月20号发车" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZrT-yl-rca">
+                        <rect key="frame" x="10" y="7" width="243" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.61568627450000002" green="0.61568627450000002" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="ZrT-yl-rca" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Ghi-B2-VFb"/>
+                    <constraint firstAttribute="bottom" secondItem="ZrT-yl-rca" secondAttribute="bottom" constant="7.5" id="Ogf-Nn-DhY"/>
+                    <constraint firstItem="ZrT-yl-rca" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="ef6-Bh-bHl"/>
+                    <constraint firstAttribute="trailing" secondItem="ZrT-yl-rca" secondAttribute="trailing" constant="67" id="n4m-qR-J3Y"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="bzLbl" destination="ZrT-yl-rca" id="Cnb-hU-6xA"/>
+            </connections>
+            <point key="canvasLocation" x="-22" y="278"/>
+        </tableViewCell>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="platformCell1" rowHeight="36" id="aUd-Mj-idO" customClass="PlatFormCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="36"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aUd-Mj-idO" id="IRo-1u-XsJ">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="35.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小明 A1照 从上海出发    到苏州      预计9月12号到达" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVR-eM-pI3">
+                        <rect key="frame" x="10" y="7" width="300" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.61568627450000002" green="0.61568627450000002" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="tVR-eM-pI3" firstAttribute="leading" secondItem="IRo-1u-XsJ" secondAttribute="leading" constant="10" id="KGe-SA-aJR"/>
+                    <constraint firstAttribute="trailing" secondItem="tVR-eM-pI3" secondAttribute="trailing" constant="10" id="gmg-Hn-Axa"/>
+                    <constraint firstItem="tVR-eM-pI3" firstAttribute="top" secondItem="IRo-1u-XsJ" secondAttribute="top" constant="7" id="iXM-o9-GLp"/>
+                    <constraint firstAttribute="bottom" secondItem="tVR-eM-pI3" secondAttribute="bottom" constant="7.5" id="maZ-Bc-rJ1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="fLbl" destination="tVR-eM-pI3" id="KqJ-9S-u1h"/>
+            </connections>
+            <point key="canvasLocation" x="-22" y="182"/>
+        </tableViewCell>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="platformCell2" rowHeight="36" id="W5s-gi-hpH" customClass="PlatFormCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="36"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="W5s-gi-hpH" id="fJ5-9L-mM8">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="35.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="汽车平台发布会在苏州开展" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WbJ-vb-iyG">
+                        <rect key="frame" x="10" y="7" width="203" height="21"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="203" id="3BM-Ef-LFW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.61568627450000002" green="0.61568627450000002" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2014-09-09" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nJK-XX-0Lw">
+                        <rect key="frame" x="239" y="7" width="71" height="21"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="71" id="ba6-D7-YFU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="WbJ-vb-iyG" firstAttribute="leading" secondItem="fJ5-9L-mM8" secondAttribute="leading" constant="10" id="IkK-tu-iHX"/>
+                    <constraint firstAttribute="trailing" secondItem="nJK-XX-0Lw" secondAttribute="trailing" constant="10" id="Kom-nf-0Ew"/>
+                    <constraint firstItem="nJK-XX-0Lw" firstAttribute="top" secondItem="fJ5-9L-mM8" secondAttribute="top" constant="7" id="S3f-E4-lXd"/>
+                    <constraint firstItem="WbJ-vb-iyG" firstAttribute="top" secondItem="fJ5-9L-mM8" secondAttribute="top" constant="7" id="YaF-sN-KCr"/>
+                    <constraint firstAttribute="bottom" secondItem="nJK-XX-0Lw" secondAttribute="bottom" constant="7.5" id="cqn-mB-QWQ"/>
+                    <constraint firstAttribute="bottom" secondItem="WbJ-vb-iyG" secondAttribute="bottom" constant="7.5" id="hE9-8K-gZW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="newsLbl" destination="WbJ-vb-iyG" id="MCO-qN-8Ek"/>
+                <outlet property="tLbl" destination="nJK-XX-0Lw" id="54g-GQ-D3C"/>
+            </connections>
+            <point key="canvasLocation" x="-22" y="93"/>
+        </tableViewCell>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="platformCell3" rowHeight="100" id="rvN-QR-8t0" customClass="PlatFormCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rvN-QR-8t0" id="B2a-1x-tuS">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avator.png" translatesAutoresizingMaskIntoConstraints="NO" id="yNm-Ci-r3p">
+                        <rect key="frame" x="16" y="9" width="60" height="60"/>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <imageView hidden="YES" userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avator.png" translatesAutoresizingMaskIntoConstraints="NO" id="ja7-hx-hi2">
+                        <rect key="frame" x="92" y="9" width="60" height="60"/>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <imageView hidden="YES" userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avator.png" translatesAutoresizingMaskIntoConstraints="NO" id="mpE-Gp-Fjt">
+                        <rect key="frame" x="168" y="9" width="60" height="60"/>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <imageView hidden="YES" userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avator.png" translatesAutoresizingMaskIntoConstraints="NO" id="RT2-rh-Shq">
+                        <rect key="frame" x="244" y="9" width="60" height="60"/>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="11" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="苏州旅行社" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6FC-d0-fzp">
+                        <rect key="frame" x="10" y="77" width="72" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.050980392159999999" green="0.40784313729999999" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="12" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="苏州旅行社" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIu-ql-fjU">
+                        <rect key="frame" x="86" y="77" width="72" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.050980392159999999" green="0.40784313729999999" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="13" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="苏州旅行社" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G3v-hu-uXH">
+                        <rect key="frame" x="162" y="77" width="72" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.050980392159999999" green="0.40784313729999999" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="14" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="苏州旅行社" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRA-De-kiy">
+                        <rect key="frame" x="238" y="77" width="72" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.050980392159999999" green="0.40784313729999999" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="comName1" destination="6FC-d0-fzp" id="NKJ-FV-hMK"/>
+                <outlet property="comName2" destination="rIu-ql-fjU" id="03W-5n-xC1"/>
+                <outlet property="comName3" destination="G3v-hu-uXH" id="vrx-c8-Sqo"/>
+                <outlet property="comName4" destination="kRA-De-kiy" id="zCc-JI-zeL"/>
+                <outlet property="comPic1" destination="yNm-Ci-r3p" id="8Nz-dX-Pi6"/>
+                <outlet property="comPic2" destination="ja7-hx-hi2" id="2p2-mI-G0J"/>
+                <outlet property="comPic3" destination="mpE-Gp-Fjt" id="3Ut-n0-2yQ"/>
+                <outlet property="comPic4" destination="RT2-rh-Shq" id="Cd2-Kv-QjM"/>
+            </connections>
+            <point key="canvasLocation" x="-22" y="411"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="avator.png" width="150" height="150"/>
+    </resources>
+</document>

@@ -1,0 +1,60 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "HttpRequest.h"
+#import "AppDelegate.h"
+#import "MBProgressHUD+LS.h"
+
+#define RGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define UserDefaults(str) [[NSUserDefaults standardUserDefaults] valueForKey:(str)]
+
+#define SC_ROLE            @"SC_ROLE_NAME"
+
+#define ROLE_DRIVER        @"司机"
+#define ROLE_MANAGER_RES   @"资源"
+#define ROLE_MANAGER_TRA   @"运力"
+
+#define TRA_PIDAN_ID     @"TRA_PIDAN_ID"
+/** 自动登录 */
+#define SC_AUTO_LOGIN    @"SC_AUTO_LOGIN"
+/** 记住密码 */
+#define SC_REM_PWD       @"SC_REM_PWD"
+/** 驾驶员定时 */
+#define SC_DRIVER_HOUR_ALERT    @"SC_DRIVER_HOUR_ALERT"
+/** 驾驶员速度 */
+#define SC_DRIVER_SPEED         @"SC_DRIVER_SPEED"
+
+
+#ifdef DEBUG
+#define LSLog(...)  NSLog(__VA_ARGS__)
+#else
+#define LSLog(...)
+#endif
+
+#define AlertTitle(title) [[[UIAlertView alloc] initWithTitle:title message:nil delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil] show]
+
+//基础数据存储
+#define SCBaseData [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"baseData.data"]
+//广告数据存储
+#define SCAdvertData [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"advertData.data"]
+//获取设备的物理高度
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+//获取设备的物理宽度
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+
+#endif
+// Dictionary 2 object
+
